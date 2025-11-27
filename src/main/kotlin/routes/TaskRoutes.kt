@@ -140,7 +140,7 @@ private suspend fun ApplicationCall.handleCreateTaskSuccess(
  * Handle task toggle (mark complete/incomplete).
  */
 private suspend fun ApplicationCall.handleToggleTask(store: TaskStore) {
-    timed("T3_edit", jsMode()) {
+    timed("T5_toggle", jsMode()) {
         val id =
             parameters["id"] ?: run {
                 respond(HttpStatusCode.BadRequest, "Missing task ID")
@@ -324,15 +324,16 @@ private suspend fun ApplicationCall.handleEditTask(store: TaskStore) {
  * Week 7: POST /tasks/{id}/edit - Update task
  */
 private suspend fun ApplicationCall.handleUpdateTask(store: TaskStore) {
+    timed("T3_edit", jsMode()) {
     val id = parameters["id"] ?: run {
         respond(HttpStatusCode.BadRequest)
-        return
+        return@timed
     }
 
     val task = store.getById(id)
     if (task == null) {
         respond(HttpStatusCode.NotFound)
-        return
+        return@timed
     }
 
     val newTitle = receiveParameters()["title"]?.trim() ?: ""
@@ -350,7 +351,7 @@ private suspend fun ApplicationCall.handleUpdateTask(store: TaskStore) {
             // No-JS: redirect back (would need error handling)
             respondRedirect("/tasks")
         }
-        return
+        return@timed
     }
 
     // Update task
@@ -366,6 +367,7 @@ private suspend fun ApplicationCall.handleUpdateTask(store: TaskStore) {
         // No-JS: redirect to list
         respondRedirect("/tasks")
     }
+}
 }
 
 /**
