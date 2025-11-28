@@ -1,0 +1,12 @@
+ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
+2025-11-28T15:55:25.847019900Z,P3_5j9s path=/,r_53b44078,T0_list,success,,56,200,off
+2025-11-28T15:55:47.585408400Z,P3_5j9s path=/,r_d2d2b492,T1_add,success,,26,200,on
+2025-11-28T15:57:30.062123100Z,P3_5j9s path=/,r_b9e4e049,T3_edit,success,,12,200,on
+2025-11-28T15:58:39.154814900Z,P3_5j9s path=/,r_91756152,T1_add,success,,17,200,on
+2025-11-28T15:59:05.178063300Z,P3_5j9s path=/,r_537e1339,T1_add,success,,22,200,on
+2025-11-28T16:00:09.164707800Z,P3_5j9s path=/,r_3961a34b,T4_filter,success,,59,200,on
+2025-11-28T16:00:09.902443Z,P3_5j9s path=/,r_ed231e6b,T4_filter,success,,33,200,on
+2025-11-28T16:00:10.244517100Z,P3_5j9s path=/,r_12abe6e1,T4_filter,success,,25,200,on
+2025-11-28T16:00:10.504439300Z,P3_5j9s path=/,r_97295c09,T4_filter,success,,17,200,on
+2025-11-28T16:01:29.010305100Z,P3_5j9s path=/,r_f61bd0df,T2_delete,success,,11,200,on
+2025-11-28T16:01:49.422060600Z,P3_5j9s path=/,r_385978e3,T2_delete,success,,7,200,on
