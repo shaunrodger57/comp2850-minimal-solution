@@ -11,4 +11,4 @@ ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
 2025-11-28T11:36:59.959368700Z,9e7216,r_88ca6dce,T4_filter,success,,6,200,on
 2025-11-28T11:37:00.542016Z,9e7216,r_af979087,T4_filter,success,,7,200,on
 2025-11-28T11:37:01.194989200Z,9e7216,r_70dad59e,T4_filter,success,,5,200,on
-2025-11-28T11:37:10.304694800Z,9e7216,r_cef45691,T2_delete,success,,0,200,on
+2025-11-28T11:37:10.304694800Z,9e7216,r_cef45691,T2_delete,success,,14,200,on
