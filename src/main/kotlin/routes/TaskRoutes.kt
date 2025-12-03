@@ -289,9 +289,9 @@ private fun messageStatusFragment(
     message: String,
     isError: Boolean = false,
 ): String {
-    val role = if (isError) "alert" else "status"
-    val ariaLive = if (isError) """ aria-live="assertive"""" else """ aria-live="polite""""
-    val cssClass = if (isError) """ class="error"""" else ""
+    val role = if (isError) "alert" else "alert"
+    val ariaLive = if (isError) """ aria-live="assertive"""" else """ aria-live="assertive""""
+    val cssClass = if (isError) """ class="error"""" else """class="error""""
     return """<div id="status" hx-swap-oob="true" role="$role"$ariaLive$cssClass>$message</div>"""
 }
 
