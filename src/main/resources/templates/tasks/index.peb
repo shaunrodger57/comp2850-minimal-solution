@@ -57,6 +57,8 @@
         </form>
     </section>
 
+    <div id="status" class = "alert"></div>
+
     {# Search/Filter Tasks Form - Week 8 #}
     <section aria-labelledby="search-heading">
         <h2 id="search-heading">Filter Tasks</h2>
