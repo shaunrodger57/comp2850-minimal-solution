@@ -285,7 +285,7 @@ private fun filterStatusFragment(
         """<div id="status" hx-swap-oob="true" role="alert">Found $total $noun matching "$query".</div>"""
     }
 
-private fun messageStatusFragment(S
+private fun messageStatusFragment(
     message: String,
     isError: Boolean = false,
 ): String {
