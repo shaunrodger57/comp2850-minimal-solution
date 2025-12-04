@@ -1,0 +1,12 @@
+ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
+2025-12-04T15:32:16.555222200Z,P1_9315,r_4ac64cd3,T0_list,success,,63,200,off
+2025-12-04T15:32:37.314347900Z,P1_9315,r_9d7502c2,T1_add,success,,96,200,on
+2025-12-04T15:34:33.555222200Z,P1_9315,r_4ac64cd3,T0_list,success,,37,200,off
+2025-12-04T15:34:53.393819100Z,P1_9315,r_8a5b3b64,T3_edit,success,,14,200,on
+2025-12-04T15:36:04.073564500Z,P1_9315,r_c139c9c1,T1_add,success,,22,200,on
+2025-12-04T15:36:15.111369900Z,P1_9315,r_f2e93510,T1_add,success,,20,200,on
+2025-12-04T15:36:46.952836600Z,P1_9315,r_256a52ed,T4_filter,success,,33,200,on
+2025-12-04T15:36:47.609366400Z,P1_9315,r_72a39ebc,T4_filter,success,,38,200,on
+2025-12-04T15:36:47.949223300Z,P1_9315,r_713aaf5b,T4_filter,success,,32,200,on
+2025-12-04T15:37:29.942878400Z,P1_9315,r_cee374d2,T2_delete,success,,11,200,on
+2025-12-04T15:37:46.705383Z,P1_9315,r_1287b518,T2_delete,success,,9,200,on

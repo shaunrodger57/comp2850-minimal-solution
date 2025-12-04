@@ -1,0 +1,14 @@
+ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
+2025-12-04T19:50:37.681063300Z,P2_e3Z7,r_bc88d046,T0_list,success,,227,200,off
+2025-12-04T19:50:51.019891900Z,P2_e3Z7,r_985ff6f6,T1_add,success,,33,200,on
+2025-12-04T19:51:16.246365800Z,P2_e3Z7,r_bc7a2177,T0_list,success,,30,200,off
+2025-12-04T19:51:38.829968400Z,P2_e3Z7,r_407cb836,T3_edit,success,,15,200,on
+2025-12-04T19:51:57.181957800Z,P2_e3Z7,r_8354f23b,T1_add,success,,21,200,on
+2025-12-04T19:52:07.076287700Z,P2_e3Z7,r_157e8254,T1_add,success,,17,200,on
+2025-12-04T19:52:20.389061400Z,P2_e3Z7,r_593059e2,T4_filter,success,,10,200,on
+2025-12-04T19:52:21.774918700Z,P2_e3Z7,r_c6dfb62b,T4_filter,success,,4,200,on
+2025-12-04T19:52:31.445366700Z,P2_e3Z7,r_c49d1ea0,T4_filter,success,,7,200,on
+2025-12-04T19:52:32.123443800Z,P2_e3Z7,r_545c3fa6,T4_filter,success,,8,200,on
+2025-12-04T19:52:44.084076200Z,P2_e3Z7,r_a6f4f727,T2_delete,success,,13,200,on
+2025-12-04T19:52:46.225347700Z,P2_e3Z7,r_8b239765,T2_delete,success,,7,200,on
+2025-12-04T19:52:48.354638300Z,P2_e3Z7,r_96151bb9,T2_delete,success,,8,200,on
