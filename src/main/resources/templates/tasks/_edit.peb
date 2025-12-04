@@ -4,7 +4,7 @@
         hx-target="#task-{{ task.id }}"
         hx-swap="outerHTML">
 
-    <label for="title-{{ task.id }}">Title</label>
+    <label for="title-{{ task.id }}">Task title.</label>
     <input type="text"
            id="title-{{ task.id }}"
            name="title"
@@ -13,7 +13,7 @@
            autofocus
            aria-describedby="hint-{{ task.id }}{% if error %} error-{{ task.id }}{% endif %}">
 
-    <small id="hint-{{ task.id }}">Keep it short and specific.</small>
+    <small id="hint-{{ task.id }}">Enter your new title. Keep it short and specific.</small>
 
     {% if error %}
       <p id="error-{{ task.id }}" class="error" role="alert" aria-live="assertive">

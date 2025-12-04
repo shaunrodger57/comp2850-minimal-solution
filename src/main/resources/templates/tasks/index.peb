@@ -5,7 +5,7 @@
 {% block content %}
 <article>
     <header>
-        <h1>Task Manager</h1>
+        <h1>Task Manager.</h1>
         <p>
             Manage your tasks with full keyboard and screen reader support.
             {% if totalItems > 0 %}
@@ -30,7 +30,7 @@
 
     {# Add Task Form - Week 7 #}
     <section aria-labelledby="add-heading">
-        <h2 id="add-heading">Add New Task</h2>
+        <h2 id="add-heading">Add New Task.</h2>
 
         <form action="/tasks" method="post"
               hx-post="/tasks"
@@ -38,15 +38,15 @@
               hx-swap="innerHTML"
               hx-on::after-request="this.reset()">
 
-            <label for="task-title">Task Title</label>
+            <label for="task-title">Task Title.</label>
             <input type="text"
                    id="task-title"
                    name="title"
                    required
                    {% if error == "title" %}aria-invalid="true" aria-describedby="title-hint title-error"{% else %}aria-describedby="title-hint"{% endif %}
-                   placeholder="e.g. Buy milk">
+                   placeholder="Example task; Buy milk">
 
-            <small id="title-hint">Keep it short and specific.</small>
+            <small id="title-hint">Enter your task's title here. Keep it short and specific. Must be between 3 and 200 characters.</small>
             {% if error == "title" %}
             <p id="title-error" class="error-message">
                 {% if msg == "too_long" %}Title is too long (max 200 characters){% else %}Title is required. Please enter at least one character.{% endif %}
@@ -61,7 +61,7 @@
 
     {# Search/Filter Tasks Form - Week 8 #}
     <section aria-labelledby="search-heading">
-        <h2 id="search-heading">Filter Tasks</h2>
+        <h2 id="search-heading">Filter Tasks.</h2>
 
         <form action="/tasks" method="get"
               hx-get="/tasks/fragment"
@@ -70,11 +70,11 @@
               hx-swap="innerHTML"
               hx-push-url="true">
 
-            <label for="search-query">Filter by title</label>
+            <label for="search-query">Filter by title.</label>
             <input type="search"
                    id="search-query"
                    name="q"
-                   placeholder="Type to filter..."
+                   placeholder="Type here to filter tasks"
                    aria-describedby="search-hint"
                    value="{{ query | default('') }}">
 
@@ -85,7 +85,7 @@
 
     {# Task List #}
     <section aria-labelledby="list-heading">
-        <h2 id="list-heading">Your Tasks</h2>
+        <h2 id="list-heading">Your Tasks.</h2>
 
         <div id="task-area">
             {% include "tasks/_list.peb" %}
